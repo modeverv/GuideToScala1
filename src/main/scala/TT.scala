@@ -13,5 +13,17 @@ object TT {
     //配列
     val a1 = new Array[Int](10)
     a1(1) = 2
+    // リスト(イミュータブル)
+    val list1 = List("Scala")
+    println(list1)
+    // マップ(イミュータブル)
+    val map1 = Map[String,Int]("S"-> 1,"B"->3)
+    // タプル
+    val t3 = ("S","B",1)
+    println(t3._2)
+
+    lazy val lazyX = {println("lazy int val");num + 1}
+
+
   }
 }
